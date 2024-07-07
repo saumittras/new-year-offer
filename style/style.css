@@ -47,3 +47,51 @@ body {
   letter-spacing: 0%;
   text-align: center;
 }
+
+/* 65% section starts from here */
+
+.second-section {
+  width: 802.9px;
+  height: 606px;
+  margin: 0 auto;
+  margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.second-section-content {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.second-section-content h1 {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 88px;
+  font-weight: 700;
+  line-height: 107px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.second-section-content p {
+  color: rgb(255, 0, 0);
+  font-family: ;
+  font-size: 24px;
+  font-weight: 500;
+}
+.second-section-content h3 {
+  color: rgb(7, 2, 17);
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+}
+.image-container {
+  width: 802.9px;
+  height: 500px;
+}
+.image-container img {
+  height: 100%;
+  width: 100%;
+}
