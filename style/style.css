@@ -13,9 +13,37 @@ body {
 
 /* Banner Section style start from here  */
 .banner-container {
-  width: 1320px;
+  max-width: 1320px;
   margin: 0 auto;
-  border: 2px solid red;
   min-height: 600px;
   margin-top: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: url("../images/Banner\ Image.png");
+  background-blend-mode: overlay;
+}
+
+.banner-container {
+  display: flex;
+  height: 600px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.banner-sub-title {
+  color: rgb(255, 255, 255);
+  font-family: Merriweather;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.banner-title {
+  color: rgb(255, 255, 255);
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 95px;
+  letter-spacing: 0%;
+  text-align: center;
 }
